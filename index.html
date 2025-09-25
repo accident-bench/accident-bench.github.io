@@ -42,46 +42,6 @@
 </head>
 <body>
 
-<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-  <div class="navbar-menu">
-    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
-      <span class="icon">
-          <i class="fas fa-home"></i>
-      </span>
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
-          </a>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</nav> -->
-
 
 <br>
 <section class="hero">
@@ -114,7 +74,7 @@
                 </a>
               </span> -->
               <span class="link-block">
-                <a href="https://open-space-reasoning.github.io/#leaderboard-land-air"
+                <a href="https://accident-bench.github.io//#leaderboard-land-air"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <p style="font-size:18px">🏆</p>
@@ -153,7 +113,7 @@
               </span>
               <!-- Dataset Link. -->
               <span class="link-block">
-                <a href="https://huggingface.co/datasets/Open-Space-Reasoning/Benchmark"
+                <a href="https://huggingface.co/datasets/Accident-Bench/Dataset"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <!-- <i class="far fa-images"></i> -->
@@ -207,7 +167,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            The increasing sophistication of multimodal models necessitates benchmarks that can rigorously evaluate their understanding and reasoning in complex, safety-pertinent, open-world scenarios. This study introduces <span class="dnerf">M4R</span> (Measuring Massive Multimodal Understanding and Reasoning), a large-scale benchmark uniquely designed to assess reasoning capabilities across diverse open spaces, comprehensively covering land, air, and water environments. <span class="dnerf">M4R</span> comprises approximately 2,000 videos and over 19,000 human-annotated question-answer pairs. These videos, varying in length (short, medium, long) and presenting tasks of tiered difficulty (interval-based choices and accuracy-based choices), encompass distinct operational domains: the land-based scenarios primarily focus on traffic environments, particularly traffic collisions and accident cases; the air-based scenarios center on airplane navigation; and the water-based scenarios involve ship movements. <span class="dnerf">M4R</span> systematically evaluates models on temporal-causal reasoning, spatial understanding, and intent and goal planning within these dynamic contexts. By providing a unified platform across this broad spectrum of domains, <span class="dnerf">M4R</span> aims to drive the development of more robust and generalizable AI systems. Benchmarking state-of-the-art multimodal models on our dataset reveals that even leading models, such as ChatGPT-4o and Gemini-2.5 Pro, achieve only around 30\% average accuracy on the hard-level tasks, highlighting the significant challenges that remain in open-space multimodal reasoning. 
+            Rapid advances in multimodal models demand benchmarks that rigorously evaluate understanding and reasoning in safety-critical, dynamic real-world settings. We present AccidentBench, a large-scale benchmark that combines vehicle accident scenarios with Beyond domains, safety-critical settings in air and water that emphasize spatial and temporal reasoning (e.g., navigation, orientation, multi-vehicle motion). The benchmark contains approximately 2000 videos and over 19000 human-annotated question--answer pairs spanning multiple video lengths (short/medium/long) and difficulty levels (easy/medium/hard). Tasks systematically probe core capabilities: temporal, spatial, and intent understanding and reasoning. By unifying accident-centric traffic scenes with broader safety-critical scenarios in air and water, AccidentBench offers a comprehensive, physically grounded testbed for evaluating models under real-world variability. Evaluations of state-of-the-art models (e.g., Gemini-2.5 Pro and GPT-5) show that even the strongest models achieve only about 18% accuracy on the hardest tasks and longest videos, revealing substantial gaps in real-world temporal, spatial, and intent reasoning. AccidentBench is designed to expose these critical gaps and drive the development of multimodal models that are safer, more robust, and better aligned with real-world safety-critical challenges.  
           </p>
           
         </div>
