@@ -222,7 +222,7 @@
       
 
       <section class="section">
-        <h3 class="title is-3"><b>Land Space</b> Scenarios</h3>
+        <h3 class="title is-3"><b>Accident Vehicle Space</b> Scenarios</h3>
       <div class="video-carousel-scroll" playsinline autoplay loop muted>
         <div class="video-track">
           <!-- 这里放视频，每个video都加 class="video-slide-scroll" -->
@@ -325,7 +325,7 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <h3 class="title is-3" id="leaderboard-land">Leaderboard of Benchmark Evaluation in the <b>Land Space</b> Domain</h3>
+    <h3 class="title is-3" id="leaderboard-land">Leaderboard of Benchmark Evaluation in the <b>Accident Vehicles</b></h3>
     <!-- <p>Scores of multimodal models on the M4R benchmark test subset (3,798 tasks out of a total of 19,000).</p> -->
     <!-- <div style="width: calc(100vw - 32px); margin-left: -16px; padding: 0 16px;">
       <h3 class="title is-3">Leaderboard of Benchmark Evaluation in the <b>Land Space</b> Domain</h3>
@@ -377,7 +377,7 @@
         <tbody> 
           <tr>
             <td rowspan="15" style="vertical-align: middle;">Hard</td>
-            <td><a href="https://openai.com/index/introducing-gpt-5/">GPT 5  🥇</a></td>
+            <td class="model-gold"><a href="https://openai.com/index/introducing-gpt-5/">GPT 5  🥇</a></td>
             <td>-</td>
             <td><b>37.33</b></td>
             <td>45.87</td>
@@ -395,7 +395,7 @@
           </tr>          
           <tr><td><a href="https://arxiv.org/pdf/2410.21276">GPT 4o</a></td><td>-</td><td>24.41</td><td>26.78</td><td>34.65</td><td>34.69</td><td>11</td><td>35.70</td><td>43.14</td><td>32.14</td><td>31.82</td><td>11.00</td><td>6</td><td>26</td><td>1</td></tr>
           <tr>
-            <td  class="model-gold"><a href="https://deepmind.google/models/gemini/pro/">Gemini 2.5 Pro</a></td>
+            <td><a href="https://deepmind.google/models/gemini/pro/">Gemini 2.5 Pro</a></td>
             <td>-</td>
             <td>29.76</td>
             <td>34.84</td>
@@ -474,7 +474,24 @@
           <tr><td><a href="https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct">Qwen2.5 VL</a></td><td>7B</td><td>22.89</td><td>26.00</td><td>17.0</td><td>30.0</td><td>31.0</td><td>30.00</td><td>40.0</td><td>32.0</td><td>18.0</td><td>12.67</td><td>2.0</td><td>30.0</td><td>6.0</td></tr>
           <!-- <tr><td><a href="https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct">Qwen2.5 VL</a></td><td>3B</td><td>22.78</td><td>23.00</td><td>17.0</td><td>33.0</td><td>19.0</td><td>26.67</td><td>38.0</td><td>26.0</td><td>16.0</td><td>18.67</td><td>10.0</td><td>34.0</td><td>12.0</td></tr> -->
           <tr><td colspan="16"></td></tr>
-          <tr><td rowspan="14" style="vertical-align: middle;">Medium</td><td><a href="https://arxiv.org/pdf/2410.21276">GPT 4o</a></td><td>-</td><td>36.99</td><td>45.49</td><td>48.48</td><td>55</td><td>33</td><td>33.89</td><td>41.67</td><td>26.67</td><td>33.33</td><td>31.33</td><td>24</td><td>44</td><td>26</td></tr>
+          <tr><td rowspan="15" style="vertical-align: middle;">Medium</td>
+            <td class="model-gold"><a href="https://openai.com/index/introducing-gpt-5/">GPT 5  🥇</a></td>
+            <td>-</td>
+            <td><b>48.34</b></td>
+            <td>62.55</td>
+            <td>64.65</td>
+            <td>67.00</td>
+            <td>56.00</td>
+            <td>46.48</td>
+            <td>50.00</td>
+            <td>42.22</td>
+            <td>47.22</td>
+            <td>36.00</td>
+            <td>24.00</td>
+            <td>56.00</td>
+            <td>28.00</td>
+          </tr>          
+          <tr><td><a href="https://arxiv.org/pdf/2410.21276">GPT 4o</a></td><td>-</td><td>36.99</td><td>45.49</td><td>48.48</td><td>55</td><td>33</td><td>33.89</td><td>41.67</td><td>26.67</td><td>33.33</td><td>31.33</td><td>24</td><td>44</td><td>26</td></tr>
           <tr>
             <td><a href="https://deepmind.google/models/gemini/pro/">Gemini 2.5 Pro </a></td>
             <td>-</td>
@@ -493,9 +510,9 @@
             <td>26.0</td>
           </tr>          
           <tr>
-            <td  class="model-gold"><a href="https://storage.googleapis.com/model-cards/documents/gemini-2.5-flash.pdf">Gemini 2.5 flash think  🥇</a></td>
+            <td><a href="https://storage.googleapis.com/model-cards/documents/gemini-2.5-flash.pdf">Gemini 2.5 flash think</a></td>
             <td>-</td>
-            <td><b>37.52</b></td>
+            <td>37.52</td>
             <td>47.82</td>
             <td>46.47</td>
             <td>56.00</td>
@@ -555,11 +572,28 @@
           <tr><td><a href="https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct">Qwen2.5 VL</a></td><td>7B</td><td>29.89</td><td>39.00</td><td>37.0</td><td>42.0</td><td>38.0</td><td>30.67</td><td>32.0</td><td>40.0</td><td>20.0</td><td>20.00</td><td>16.0</td><td>26.0</td><td>18.0</td></tr>
           <!-- <tr><td><a href="https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct">Qwen2.5 VL</a></td><td>3B</td><td>30.78</td><td>41.67</td><td>33.0</td><td>52.0</td><td>40.0</td><td>24.67</td><td>30.0</td><td>30.0</td><td>14.0</td><td>26.00</td><td>22.0</td><td>36.0</td><td>20.0</td></tr> -->
            <tr><td colspan="16"></td></tr>
-          <tr><td rowspan="14" style="vertical-align: middle;">Easy</td><td><a href="https://arxiv.org/pdf/2410.21276">GPT 4o</a></td><td>-</td><td>42.17</td><td>52.35</td><td>59</td><td>47.06</td><td>51</td><td>47.16</td><td>54.9</td><td>44.9</td><td>41.67</td><td>27.00</td><td>44</td><td>5</td><td>32</td></tr>
-          <tr>
-            <td  class="model-gold"><a href="https://deepmind.google/models/gemini/pro/">Gemini 2.5 Pro 🥇</a></td>
+           <tr><td rowspan="15" style="vertical-align: middle;">Easy</td>
+            <td  class="model-gold"><a href="https://openai.com/index/introducing-gpt-5/">GPT 5 🥇</a></td>
             <td>-</td>
-            <td><b>54.56</b></td>
+            <td><b>54.86</b></td>
+            <td>71.20</td>
+            <td>76.00</td>
+            <td>69.61</td>
+            <td>68.00</td>
+            <td>48.71</td>
+            <td>47.06</td>
+            <td>44.90</td>
+            <td>54.17</td>
+            <td>44.67</td>
+            <td>34.00</td>
+            <td>52.00</td>
+            <td>48.00</td>
+          </tr>          
+          <tr><td><a href="https://arxiv.org/pdf/2410.21276">GPT 4o</a></td><td>-</td><td>42.17</td><td>52.35</td><td>59</td><td>47.06</td><td>51</td><td>47.16</td><td>54.9</td><td>44.9</td><td>41.67</td><td>27.00</td><td>44</td><td>5</td><td>32</td></tr>
+          <tr>
+            <td><a href="https://deepmind.google/models/gemini/pro/">Gemini 2.5 Pro</a></td>
+            <td>-</td>
+            <td>54.56</td>
             <td>62.96</td>
             <td>70.0</td>
             <td>55.88</td>
@@ -644,7 +678,7 @@
 
 
 <section class="section">
-  <h3 class="title is-3"><b>Air Space</b> Scenarios</h3>
+  <h3 class="title is-3"><b>Airplane Navigation</b> Scenarios</h3>
 <div class="video-carousel-scroll" playsinline autoplay loop muted>
   <div class="video-track">
     <!-- 这里放视频，每个video都加 class="video-slide-scroll" -->
@@ -746,7 +780,7 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <h2 class="title is-3" id="leaderboard-air">Leaderboard of Benchmark Evaluation in the <b>Air Space</b> Domain</h2>
+    <h2 class="title is-3" id="leaderboard-air">Leaderboard of Benchmark Evaluation in the <b>Airplane</b></h2>
     <div class="table-container compact-table" style="overflow-x:auto;">
       <table class="table is-bordered is-striped is-hoverable compact-table" style="width:auto;">
         <caption style="text-align: justify;">
@@ -889,7 +923,24 @@
           <!-- <tr><td><a href="https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct">Qwen2.5 VL</a></td><td>3B</td><td>15.33</td><td>16.00</td><td>8.00</td><td>32.00</td><td>8.00</td><td>13.33</td><td>6.00</td><td>26.00</td><td>8.00</td><td>16.67</td><td>10.00</td><td>25.00</td><td>15.00</td></tr> -->
           <tr><td colspan="16"></td></tr>
           <!-- Medium -->
-          <tr><td rowspan="14" style="vertical-align: middle;">Medium</td>
+          <tr><td rowspan="15" style="vertical-align: middle;">Medium</td>
+            <td><a href="https://openai.com/index/introducing-gpt-5/">GPT 5</a></td>
+            <td>-</td>
+            <td>44.00</td>
+            <td>39.33</td>
+            <td>28.00</td>
+            <td>44.00</td>
+            <td>46.00</td>
+            <td>39.33</td>
+            <td>36.00</td>
+            <td>54.00</td>
+            <td>28.00</td>
+            <td>53.33</td>
+            <td>65.00</td>
+            <td>35.00</td>
+            <td>60.00</td>
+          </tr>          
+          <tr>
             <td><a href="https://arxiv.org/pdf/2410.21276">GPT 4o</a></td><td>-</td><td>38.45</td><td>38.67</td><td>38.00</td><td>56.00</td><td>22.00</td><td>30.00</td><td>38.00</td><td>34.00</td><td>18.00</td><td>46.67</td><td>65.00</td><td>30.00</td><td>45.00</td></tr>
             <tr>
               <td><a href="https://deepmind.google/models/gemini/pro/">Gemini 2.5 Pro</a></td>
@@ -971,8 +1022,25 @@
           <tr><td><a href="https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct">Qwen2.5 VL</a></td><td>7B</td><td>28.00</td><td>24.67</td><td>16.00</td><td>24.00</td><td>34.00</td><td>26.00</td><td>24.00</td><td>26.00</td><td>28.00</td><td>33.33</td><td>35.00</td><td>20.00</td><td>45.00</td></tr>
           <!-- <tr><td><a href="https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct">Qwen2.5 VL</a></td><td>3B</td><td>28.67</td><td>22.67</td><td>18.00</td><td>36.00</td><td>14.00</td><td>26.67</td><td>18.00</td><td>44.00</td><td>18.00</td><td>36.67</td><td>40.00</td><td>35.00</td><td>35.00</td></tr> -->
           <tr><td colspan="16"></td></tr>
-          <!-- Easy -->
-          <tr><td rowspan="14" style="vertical-align: middle;">Easy</td>
+          <!-- Easy -->          
+            <tr><td rowspan="15" style="vertical-align: middle;">Easy</td>  
+              <td><a href="https://openai.com/index/introducing-gpt-5/">GPT 5</a></td>
+              <td>-</td>
+              <td>52.00</td>
+              <td>47.33</td>
+              <td>42.00</td>
+              <td>42.00</td>
+              <td>58.00</td>
+              <td>48.67</td>
+              <td>46.00</td>
+              <td>46.00</td>
+              <td>54.00</td>
+              <td>60.00</td>
+              <td>65.00</td>
+              <td>35.00</td>
+              <td>80.00</td>
+            </tr>        
+            <tr>
             <td><a href="https://arxiv.org/pdf/2410.21276">GPT 4o</a></td><td>-</td><td>40.67</td><td>35.33</td><td>30.00</td><td>28.00</td><td>48.00</td><td>36.67</td><td>24.00</td><td>38.00</td><td>48.00</td><td>50.00</td><td>45.00</td><td>50.00</td><td>55.00</td></tr>
             <tr>
               <td class="model-gold"><a href="https://deepmind.google/models/gemini/pro/">Gemini 2.5 Pro 🥇</a></td>
@@ -1062,111 +1130,8 @@
 </section>
 
 
-
-
-<!-- 
 <section class="section">
-  <h3 class="title is-3"><b>Water Space</b> Scenarios</h3>
-<div class="video-carousel-scroll" playsinline autoplay loop muted>
-  <div class="video-track">
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_1_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_2_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_3_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_4_output.mp4" type="video/mp4">  
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_5_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_6_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_7_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_8_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_9_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_10_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_11_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_12_output.mp4" type="video/mp4">  
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_13_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_14_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_15_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_1_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_2_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_3_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_4_output.mp4" type="video/mp4">  
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_5_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_6_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_7_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_8_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_9_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_10_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_11_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_12_output.mp4" type="video/mp4">  
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_13_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_14_output.mp4" type="video/mp4">
-    </video>
-    <video class="video-slide-scroll" playsinline autoplay loop muted>
-      <source src="./static/videos/water_space/water_space_medium_c_15_output.mp4" type="video/mp4">
-    </video>
-  </div>
-</div>
-</section>   -->
-
-
-
-<section class="section">
-  <h3 class="title is-3"><b>Water Space</b> Scenarios</h3>
+  <h3 class="title is-3"><b>Ship Motion</b> Scenarios</h3>
 <div class="video-carousel-scroll" playsinline autoplay loop muted>
   <div class="video-track">
     <!-- 这里放视频，每个video都加 class="video-slide-scroll" --> 
@@ -1268,7 +1233,7 @@
 
 <section class="section">
   <div class="container is-max-desktop">
-    <h2 class="title is-3" id="leaderboard-water">Leaderboard of Benchmark Evaluation in the <b>Water Space</b> Domain</h2>
+    <h2 class="title is-3" id="leaderboard-water">Leaderboard of Benchmark Evaluation in the <b>Ship Motion</b></h2>
     <div class="table-container compact-table" style="overflow-x:auto;">
       <table class="table is-bordered is-striped is-hoverable compact-table" style="width:auto;">
         <caption style="text-align: justify;">
@@ -1322,7 +1287,7 @@
         <tbody>
           <!-- Hard -->
           <tr><td rowspan="15" style="vertical-align: middle;">Hard</td>
-            <td><a href="https://openai.com/index/introducing-gpt-5/">GPT 5</a></td>
+            <td class="model-gold"><a href="https://openai.com/index/introducing-gpt-5/">GPT 5 🥇</a></td>
             <td>-</td>
             <td><b>38.36</b></td>
             <td>48.72</td>
@@ -1333,13 +1298,12 @@
             <td>30.00</td>
             <td>32.00</td>
             <td>22.00</td>
-          </tr>          
-          <tr>
+          </tr>                           
             <td><a href="https://arxiv.org/pdf/2410.21276">GPT 4o</a></td><td>-</td><td>22.10</td><td>28.20</td><td>38.46</td><td>26.92</td><td>19.23</td><td>16.00</td><td>18.00</td><td>18.00</td><td>12.00</td></tr>
             <tr>
-              <td class="model-gold"><a href="https://deepmind.google/models/gemini/pro/">Gemini 2.5 Pro 🥇</a></td>
+              <td><a href="https://deepmind.google/models/gemini/pro/">Gemini 2.5 Pro</a></td>
               <td>-</td>
-              <td><b>29.64</b></td>
+              <td>29.64</td>
               <td>34.62</td>
               <td>23.08</td>
               <td>34.62</td>
@@ -1401,7 +1365,20 @@
           <!-- <tr><td><a href="https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct">Qwen2.5 VL</a></td><td>3B</td><td>14.34</td><td>16.67</td><td>15.38</td><td>19.23</td><td>15.38</td><td>12.00</td><td>12.00</td><td>22.00</td><td>2.00</td></tr> -->
           <tr><td colspan="12"></td></tr>
           <!-- Medium -->
-          <tr><td rowspan="14" style="vertical-align: middle;">Medium</td>
+          <tr><td rowspan="15" style="vertical-align: middle;">Medium</td> 
+            <td  class="model-gold"><a href="https://openai.com/index/introducing-gpt-5/">GPT 5  🥇</a></td>
+            <td>-</td>
+            <td><b>51.80</b></td>
+            <td>60.26</td>
+            <td>53.85</td>
+            <td>46.15</td>
+            <td>80.77</td>
+            <td>43.33</td>
+            <td>56.00</td>
+            <td>48.00</td>
+            <td>26.00</td>
+          </tr> 
+          <tr>             
             <td><a href="https://arxiv.org/pdf/2410.21276">GPT 4o</a></td><td>-</td><td>38.49</td><td>42.31</td><td>50.00</td><td>53.85</td><td>23.08</td><td>34.67</td><td>36.00</td><td>48.00</td><td>20.00</td></tr>
             <tr>
               <td><a href="https://deepmind.google/models/gemini/pro/">Gemini 2.5 Pro</a></td>
@@ -1417,9 +1394,9 @@
               <td>22.0</td>
             </tr>            
             <tr>
-              <td class="model-gold"><a href="https://storage.googleapis.com/model-cards/documents/gemini-2.5-flash.pdf">Gemini 2.5 flash think 🥇</a></td>
+              <td><a href="https://storage.googleapis.com/model-cards/documents/gemini-2.5-flash.pdf">Gemini 2.5 flash think</a></td>
               <td>-</td>
-              <td><b>48.26</b></td>
+              <td>48.26</td>
               <td>53.85</td>
               <td>61.54</td>
               <td>57.70</td>
@@ -1468,7 +1445,20 @@
           <!-- <tr><td><a href="https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct">Qwen2.5 VL</a></td><td>3B</td><td>28.08</td><td>29.49</td><td>23.08</td><td>53.85</td><td>11.54</td><td>26.67</td><td>18.00</td><td>44.00</td><td>18.00</td></tr> -->
           <tr><td colspan="12"></td></tr>
           <!-- Easy -->
-          <tr><td rowspan="14" style="vertical-align: middle;">Easy</td>
+          <tr><td rowspan="15" style="vertical-align: middle;">Easy</td> 
+            <td class="model-gold"><a href="https://openai.com/index/introducing-gpt-5/">GPT 5 🥇</a></td>
+            <td>-</td>
+            <td><b>63.00</b></td>
+            <td>66.67</td>
+            <td>61.54</td>
+            <td>50.00</td>
+            <td>88.46</td>
+            <td>59.33</td>
+            <td>78.00</td>
+            <td>48.00</td>
+            <td>52.00</td>
+          </tr>   
+          <tr>                    
             <td><a href="https://arxiv.org/pdf/2410.21276">GPT 4o</a></td><td>-</td><td>50.51</td><td>57.69</td><td>57.69</td><td>50.00</td><td>65.38</td><td>43.33</td><td>66.00</td><td>34.00</td><td>30.00</td></tr>
             <tr>
               <td><a href="https://deepmind.google/models/gemini/pro/">Gemini 2.5 Pro</a></td>
@@ -1484,9 +1474,9 @@
               <td>52.0</td>
             </tr>            
             <tr>
-              <td class="model-gold"><a href="https://storage.googleapis.com/model-cards/documents/gemini-2.5-flash.pdf">Gemini 2.5 flash think 🥇</a></td>
+              <td><a href="https://storage.googleapis.com/model-cards/documents/gemini-2.5-flash.pdf">Gemini 2.5 flash think</a></td>
               <td>-</td>
-              <td><b>62.03</b></td>
+              <td>62.03</td>
               <td>65.39</td>
               <td>80.77</td>
               <td>42.31</td>
